@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="mGESTA">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jdom-2.0.5-junit.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdom-2.0.5-junit/jdom-2.0.5-junit">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom-2.0.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdom-2.0.5/jdom-2.0.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasypt-1.9.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasypt-1.9.0/jasypt-1.9.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom-2.0.5-contrib.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdom-2.0.5-contrib/jdom-2.0.5-contrib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom-2.0.5-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdom-2.0.5-sources/jdom-2.0.5-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom-2.0.5-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdom-2.0.5-javadoc/jdom-2.0.5-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="mGESTA"/>
+        <property name="java-output-path" value="/mGESTA/build/classes"/>
+    </wb-module>
+</project-modules>

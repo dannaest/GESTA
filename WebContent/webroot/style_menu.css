@@ -1,0 +1,22 @@
+.top_bande{
+	background-color: lightblue;
+	position: relative;
+	display: block;
+	hiehgt: 40px; 
+	margin-bottom: 10px; 
+	border-bottom: 1px ridge silver;
+	top:0px;
+	position: absolute;
+	width:100%;
+}
+.top_bande ul{
+	list-style-type: none;
+}
+.top_bande li{	
+	display: inline;
+	padding: 10px;
+}
+.menu_action{
+	background-color: orange;
+	color: red;
+}

@@ -1,0 +1,1 @@
+<div style="fixed;bottom:0px;width:90%;margin:auto;">GESTA  © 2015 -- Application de gestion des stages -- </div>

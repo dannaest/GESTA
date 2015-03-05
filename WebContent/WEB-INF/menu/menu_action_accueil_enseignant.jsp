@@ -1,0 +1,14 @@
+<!-- MENU ACTIONS : PAGE ACCUEIL ENSEIGNANT -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+<div class="panel panel-info menu_action"> 
+	<div class="panel-heading centered"><h3>Actions</h3></div>
+	<div class="panel-body"> 
+	<ul>
+		<li> 
+		<c:if  test="${not empty sessionUtilisateur}" >
+			 
+		</c:if> 
+		</li> 
+	</ul>
+	</div>
+</div>
